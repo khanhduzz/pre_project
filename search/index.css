@@ -1,0 +1,74 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    background: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-width: 400px;
+    height: 100%;
+}
+
+body .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.navBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navBar .h2 {
+    display: block;
+    max-width: 100px;
+}
+
+.searchArea {
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+
+.logo {
+    margin-top: 20vh;
+    max-height: 92px;
+}
+
+.logo img {
+    max-height: 92px;
+    object-fit: contain;
+}
+
+.searchBar {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: auto;
+}
+
+.searchBar .sbar {
+    display: flex;
+    flex-direction: row;
+    gap: 0.2rem;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 6px;
+}
+
+.searchBar form {
+    width: 15vw;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
