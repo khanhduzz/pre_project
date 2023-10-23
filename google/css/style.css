@@ -113,9 +113,26 @@ nav button {
 	cursor: pointer;
 	transition: border-color 100ms;
 }
+
+.sa-btn {
+	border: 1px solid transparent;
+	padding: 9px 9px 25px 15px;
+	color: #fff;
+	font-size: 14px;
+	border-radius: 4px;
+	display: inline-block;
+	/* margin-right: 10px;
+	margin-top: 28px; */
+	outline: none;
+	cursor: pointer;
+	transition: border-color 100ms;
+	background: rgb(90, 140, 245);
+}
+
 .s-btn:hover {
 	border: 1px solid #aaa;
 }
+
 .lang {
 	margin-top: 30px;
 	text-align: center;
@@ -159,4 +176,10 @@ footer a:hover {
 }
 .link-2 {
 	padding-right: 18.7px;
+}
+
+.formArea {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }

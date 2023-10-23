@@ -7,41 +7,47 @@
 	<title>Google</title>
 	<link rel="icon" href="favicon.ico">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/adv.css">
 </head>
 
 <body>
 	<nav>
-		<a href="#">Gmail</a>
-		<a href="#">Images</a>
+		<a href="index.html">Google Search</a>
+		<a href="advanceSearch.html">Advance Search</a>
 	</nav>
 	<section class="section-1">
 		<img alt="Google" src="img/logo.png" class="logo">
-		<form action="https://www.facebook.com/dumaster.khanh/"><br><br>
-			<div class="s-box">
-				<img alt="Search" src="img/search.svg" class="search-icon">
-				<input type="search" class="s-input">
-				<img alt="Voice" src="img/vs.png" class="vs-icon">
-				<input type="submit" class="s-btn" value="Google Search">
-				<input type="submit" class="s-btn" value="I'm Feeling Lucky">
+		<form action="https://www.google.com/search"><br><br>
+			<div class="main_div">
+			<div class="column column1">
+				<span class="first">
+					Find pages with...
+				</span>
+				<div class="row">
+					<label for="first">all these words:</label>
+					<input type="text" id="first" name="as_q" />
+				</div>
+				<div class="row">
+					<label for="second">this exact word or phrase:</label>
+					<input type="text" id="second" name="as_epq" />
+				</div>
+				<div class="row">
+					<label for="third">any of these words:</label>
+					<input type="text" id="third" name="as_oq" />
+				</div>
+				<div class="row">
+					<label for="fourth">none of these words:</label>
+					<input type="text" id="fourth" name="as_eq" />
+				</div>
 			</div>
+		</div>
+		<div class="formArea">
+			<div>
+				<button type="submit" class="sa-btn">Advanced Search</button>
+			</div>
+		</div>
 		</form>
 	</section>
 </body>
-<footer>
-	<h4>Nederlands</h4>
-	<div class="links">
-		<div class="link-1">
-			<a href="#">Advertising</a>
-			<a href="#">Business</a>
-			<a href="#">About</a>
-			<a href="#">How Search works</a>
-		</div>
-		<div class="link-2">
-			<a href="#">Privacy</a>
-			<a href="#">Terms</a>
-			<a href="#">Settings</a>
-		</div>
-	</div>
-</footer>
 
 </html>
